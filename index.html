@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>GifTastic</title>
+
+    <!---jQuery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--link to CSS Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="animal-buttons"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9 container-fluid">
+                <div class="animal-view"></div>
+            </div>
+            <div class="col-md-3">
+                <form id="gif-form">
+                      <label for="animal-input">Add an animal</label><br>
+                      <input type="text" id="animal-input"><br>
+                      <input id="add-animal" class="btn btn-default" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>	
+    
+    
+        <!-- Added link to Javascript-->
+        <script type="text/javascript" src="assets/javascript/app.js"></script>	
+</body>
+</html>
