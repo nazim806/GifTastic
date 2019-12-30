@@ -1,7 +1,9 @@
 # GifTastic
 
 
-GifTastic is a web application that searches the GIPHY API to find gifs by pressing search buttons. The buttons on screen are predefined,
+GifTastic is a fun and interactive game for web browsers. The app dynamically update HTML pages with the jQuery library.
+
+This web application searches the GIPHY API to find gifs by pressing search buttons. The buttons on screen are predefined,
 
 but users can create new buttons using the form on the right.
 
